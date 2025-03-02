@@ -1,12 +1,12 @@
-package com.example.beans;
+package com.example.recipes.beans;
 
 import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Component;
 
 @Component
 @Lazy
-public class LazyBean {
-    public LazyBean() {
-        System.out.println("LazyBean initialized!");
+public class RecipeLogger {
+    public RecipeLogger() {
+        System.out.println("Lazy RecipeLogger Initialized");
     }
 }
