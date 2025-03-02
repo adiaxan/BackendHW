@@ -1,10 +1,10 @@
-package com.example.beans;
+package com.example.recipes.beans;
 
 import org.springframework.stereotype.Component;
 
 @Component
-public class EagerBean {
-    public EagerBean() {
-        System.out.println("EagerBean initialized!");
+public class RecipeCache {
+    public RecipeCache() {
+        System.out.println("Eager RecipeCache Initialized");
     }
 }
