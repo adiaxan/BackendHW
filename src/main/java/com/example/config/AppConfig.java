@@ -1,9 +1,8 @@
-package com.example.config;
+package com.example.recipes.config;
 
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-@ComponentScan(basePackages = "com.example")
-public class AppConfig {
-}
+@ComponentScan("com.example.recipes")
+public class AppConfig {}
